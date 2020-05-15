@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import foodItemsData from "./data.json";
+import DineoutItem from "./Components/DineoutItem";
 
-function App() {
+const App = () => {
+  
+  const renderFoodItems = () => {
+    console.log('foodItemsData.data', foodItemsData.data);
+    return foodItemsData.data.map(item => {
+      return (
+        <DineoutItem key={item.id} imagePath={item.imagePath} name={item.name} 
+        location={item.location} discount={item.discount}/>
+      )
+    });
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="all-food-items">
+        {renderFoodItems()}
+      </div>
     </div>
   );
 }

@@ -1,0 +1,67 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Gobhi Masala",
+            "location": "Delhi, Ahmedabad",
+            "imagePath": "https://i.ibb.co/8g5YGGk/download2.jpg",
+            "discount": "50% off on all items"
+        },
+        {
+            "id": 2,
+            "name": "Dal Tadka",
+            "location": "Delhi, Ahmedabad",
+            "imagePath": "https://i.ibb.co/0BLp507/download1.jpg",
+            "discount": "50% off on all items"
+        },
+        {
+            "id": 3,
+            "name": "Fasoos",
+            "location": "Delhi, Ahmedabad",
+            "imagePath": "https://i.ibb.co/8g5YGGk/download2.jpg",
+            "discount": "50% off on all items"
+        },
+        {
+            "id": 4,
+            "name": "Firangi Bake",
+            "location": "Delhi, Ahmedabad",
+            "imagePath": "https://i.ibb.co/0BLp507/download1.jpg",
+            "discount": "50% off on all items"
+        },
+        {
+            "id": 5,
+            "name": "Good Bowl",
+            "location": "Delhi, Ahmedabad",
+            "imagePath": "https://i.ibb.co/8g5YGGk/download2.jpg",
+            "discount": "50% off on all items"
+        },
+        {
+            "id": 6,
+            "name": "Sweet Truth",
+            "location": "Delhi, Ahmedabad",
+            "imagePath": "https://i.ibb.co/0BLp507/download1.jpg",
+            "discount": "50% off on all items"
+        },
+        {
+            "id": 7,
+            "name": "Bakingo",
+            "location": "Delhi, Ahmedabad",
+            "imagePath": "https://i.ibb.co/8g5YGGk/download2.jpg",
+            "discount": "50% off on all items"
+        },
+        {
+            "id": 8,
+            "name": "Barbeque",
+            "location": "Delhi, Ahmedabad",
+            "imagePath": "https://i.ibb.co/0BLp507/download1.jpg",
+            "discount": "50% off on all items"
+        },
+        {
+            "id": 9,
+            "name": "Chola Masala",
+            "location": "Delhi, Ahmedabad",
+            "imagePath": "https://i.ibb.co/8g5YGGk/download2.jpg",
+            "discount": "50% off on all items"
+        }
+    ]
+}
